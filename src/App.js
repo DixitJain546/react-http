@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import PostsListGet from './components/PostsListGet';
+import PostForm from './components/PostForm';
+import FetchSinglePost from './components/FetchSinglePost';
+import FetchDataReducer from './components/FetchDataReducer';
 
 function App() {
   return (
@@ -7,16 +11,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* <PostsListGet /> */}
+          {/* <PostForm /> */}
+          {/* <FetchSinglePost /> */}
+          <FetchDataReducer />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
